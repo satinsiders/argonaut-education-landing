@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a5a5a"/>
+      <stop offset="100%" stop-color="#383838"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="64" ry="64" fill="url(#bg)"/>
+
+  <!-- Argonaut "A" constellation mark -->
+  <g fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <!-- Left stroke of the A -->
+    <path d="M256 88 L190 280 L136 420"/>
+    <!-- Right stroke of the A -->
+    <path d="M256 88 L322 280 L376 420"/>
+    <!-- Cross bar with slight dip to a center node -->
+    <path d="M196 280 L316 280"/>
+  </g>
+
+  <!-- Nodes -->
+  <g fill="#ffffff" filter="url(#glow)">
+    <circle cx="256" cy="88" r="14"/>
+    <circle cx="136" cy="420" r="14"/>
+    <circle cx="376" cy="420" r="14"/>
+    <circle cx="196" cy="280" r="14"/>
+    <circle cx="316" cy="280" r="14"/>
+    <circle cx="256" cy="320" r="10"/>
+  </g>
+
+  <!-- Small connector from bar to center node (subtle) -->
+  <g fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" filter="url(#glow)">
+    <path d="M236 300 L256 320 L276 300"/>
+  </g>
+</svg>
+
