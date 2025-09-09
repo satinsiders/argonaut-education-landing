@@ -141,7 +141,7 @@ export function Hero() {
                 <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
                   <div className="w-2 h-2 bg-stellar-lavender rounded-full"></div>
                   <span className="text-nebula-white font-medium text-sm md:text-base">Mind The Bridge</span>
-                  <span className="text-soft-graphite text-xs md:text-sm">Accelerator</span>
+                  <span className="text-soft-graphite text-xs md:text-sm">Accelerator Program</span>
                 </div>
               </motion.div>
             </div>
