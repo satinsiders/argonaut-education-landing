@@ -53,7 +53,8 @@
     },
     build: {
       target: 'esnext',
-      outDir: 'build',
+      // Align with hosting expectation: publish directory is `dist`
+      outDir: 'dist',
     },
     server: {
       port: 3000,
