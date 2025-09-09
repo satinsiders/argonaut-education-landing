@@ -83,7 +83,7 @@ export function Opportunity() {
             <div className="relative bg-gradient-to-br from-arc-teal/10 to-ion-violet/10 border border-arc-teal/30 rounded-3xl p-12 text-center">
               <h3 className="font-display text-3xl md:text-4xl text-arc-teal mb-6">The Vector of Progress</h3>
               <p className="text-2xl text-nebula-white leading-relaxed font-medium">
-                <span className="text-arc-teal font-semibold">Proactivity</span>: teacher like agents that 
+                <span className="text-arc-teal font-semibold">Proactivity</span>: teacher-like agents that 
                 sense when to step in and <span className="text-ion-violet">trigger thinking</span> at the perfect moment.
               </p>
             </div>

@@ -75,7 +75,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            Argonaut builds <span className="text-ion-violet font-medium">proactive, tool using AI teachers</span> that step in at the right moment, bringing true 1:1 learning to everyone.
+            Argonaut builds <span className="text-ion-violet font-medium">proactive AI teachers</span> that step in at the right moment to bring 1:1 personalized learning to everyone.
           </motion.p>
 
           <motion.div
