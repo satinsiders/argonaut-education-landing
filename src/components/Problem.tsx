@@ -35,19 +35,19 @@ export function Problem() {
           viewport={{ once: true }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-red-500/20 via-orange-500/20 to-yellow-500/20 rounded-3xl blur-xl"></div>
-          <div className="relative bg-gradient-to-br from-red-500/10 to-orange-500/10 border-2 border-red-500/30 rounded-3xl p-12">
+          <div className="relative bg-gradient-to-br from-red-500/10 to-orange-500/10 border-2 border-red-500/30 rounded-3xl p-6 md:p-12">
             {/* Academic-style content frame */}
-            <div className="border border-red-500/20 rounded-2xl p-8">
+            <div className="border border-red-500/20 rounded-2xl p-6 md:p-8">
               <div className="text-center">
-                <h3 className="font-display text-3xl md:text-4xl text-red-400 mb-8">Education Polarization</h3>
-                <p className="text-2xl text-nebula-white leading-relaxed font-medium">
+                <h3 className="font-display text-2xl md:text-3xl lg:text-4xl text-red-400 mb-6 md:mb-8">Education Polarization</h3>
+                <p className="text-lg md:text-xl lg:text-2xl text-nebula-white leading-relaxed font-medium">
                   <span className="text-red-400">Polarization</span> is <span className="text-orange-400">accelerating</span> across 
                   public and private systems, producing <span className="text-yellow-400">uneven access</span> to 
                   timely, high quality teaching.
                 </p>
               </div>
               
-              <div className="grid md:grid-cols-2 gap-12 mt-16">
+              <div className="grid md:grid-cols-2 gap-8 md:gap-12 mt-12 md:mt-16">
                 <div className="text-center">
                   <div className="w-20 h-20 bg-red-500/20 rounded-full mx-auto mb-6 flex items-center justify-center border-2 border-red-500/30">
                     <TrendingUp className="w-10 h-10 text-red-400 rotate-180" />

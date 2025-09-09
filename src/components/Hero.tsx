@@ -4,7 +4,7 @@ import { ExternalLink, Play } from 'lucide-react';
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden pt-20 md:pt-0">
       {/* Animated background grid */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-gradient-to-br from-ion-violet/10 via-transparent to-arc-teal/10"></div>

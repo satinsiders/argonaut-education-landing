@@ -55,30 +55,30 @@ export function Vision() {
               viewport={{ once: true }}
             >
               {/* Universal Access */}
-              <div className="bg-gradient-to-br from-arc-teal/10 to-arc-teal/5 border border-arc-teal/30 rounded-2xl p-8 hover:border-arc-teal/50 transition-all duration-300 h-72">
+              <div className="bg-gradient-to-br from-arc-teal/10 to-arc-teal/5 border border-arc-teal/30 rounded-2xl p-6 md:p-8 hover:border-arc-teal/50 transition-all duration-300 min-h-[20rem] lg:h-72">
                 <div className="flex flex-col h-full">
-                  <div className="flex items-center space-x-4 mb-4">
-                    <div className="w-16 h-16 bg-arc-teal/20 rounded-2xl flex items-center justify-center flex-shrink-0">
-                      <Globe className="text-arc-teal" size={32} />
+                  <div className="flex flex-col sm:flex-row sm:items-center space-y-3 sm:space-y-0 sm:space-x-4 mb-4">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-arc-teal/20 rounded-2xl flex items-center justify-center flex-shrink-0">
+                      <Globe className="text-arc-teal" size={24} />
                     </div>
-                    <h4 className="font-display text-2xl font-semibold text-nebula-white">Universal Access Revolution</h4>
+                    <h4 className="font-display text-xl md:text-2xl font-semibold text-nebula-white">Universal Access Revolution</h4>
                   </div>
-                  <p className="text-soft-graphite leading-relaxed text-lg flex-1 mb-6">
+                  <p className="text-soft-graphite leading-relaxed text-base md:text-lg flex-1 pb-4">
                     Today, quality education is determined by geography, wealth, and access to elite institutions. We're building a future where every student—regardless of background—has access to the same caliber of personalized instruction that was previously reserved for the privileged few.
                   </p>
                 </div>
               </div>
 
               {/* Proactive Intelligence */}
-              <div className="bg-gradient-to-br from-ion-violet/10 to-ion-violet/5 border border-ion-violet/30 rounded-2xl p-8 hover:border-ion-violet/50 transition-all duration-300 h-72">
+              <div className="bg-gradient-to-br from-ion-violet/10 to-ion-violet/5 border border-ion-violet/30 rounded-2xl p-6 md:p-8 hover:border-ion-violet/50 transition-all duration-300 min-h-[20rem] lg:h-72">
                 <div className="flex flex-col h-full">
-                  <div className="flex items-center space-x-4 mb-4">
-                    <div className="w-16 h-16 bg-ion-violet/20 rounded-2xl flex items-center justify-center flex-shrink-0">
-                      <Lightbulb className="text-ion-violet" size={32} />
+                  <div className="flex flex-col sm:flex-row sm:items-center space-y-3 sm:space-y-0 sm:space-x-4 mb-4">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-ion-violet/20 rounded-2xl flex items-center justify-center flex-shrink-0">
+                      <Lightbulb className="text-ion-violet" size={24} />
                     </div>
-                    <h4 className="font-display text-2xl font-semibold text-nebula-white">Proactive Intelligence</h4>
+                    <h4 className="font-display text-xl md:text-2xl font-semibold text-nebula-white">Proactive Intelligence</h4>
                   </div>
-                  <p className="text-soft-graphite leading-relaxed text-lg flex-1 mb-6">
+                  <p className="text-soft-graphite leading-relaxed text-base md:text-lg flex-1 pb-4">
                     Unlike reactive tutoring that responds to failures, our AI teachers anticipate learning gaps, adapt in real-time to student needs, and provide continuous optimization of the learning path—creating an educational experience that evolves with each learner.
                   </p>
                 </div>
@@ -93,30 +93,30 @@ export function Vision() {
               viewport={{ once: true }}
             >
               {/* Transforming Human Roles */}
-              <div className="bg-gradient-to-br from-stellar-lavender/10 to-stellar-lavender/5 border border-stellar-lavender/30 rounded-2xl p-8 hover:border-stellar-lavender/50 transition-all duration-300 h-72">
+              <div className="bg-gradient-to-br from-stellar-lavender/10 to-stellar-lavender/5 border border-stellar-lavender/30 rounded-2xl p-6 md:p-8 hover:border-stellar-lavender/50 transition-all duration-300 min-h-[20rem] lg:h-72">
                 <div className="flex flex-col h-full">
-                  <div className="flex items-center space-x-4 mb-4">
-                    <div className="w-16 h-16 bg-stellar-lavender/20 rounded-2xl flex items-center justify-center flex-shrink-0">
-                      <Users className="text-stellar-lavender" size={32} />
+                  <div className="flex flex-col sm:flex-row sm:items-center space-y-3 sm:space-y-0 sm:space-x-4 mb-4">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-stellar-lavender/20 rounded-2xl flex items-center justify-center flex-shrink-0">
+                      <Users className="text-stellar-lavender" size={24} />
                     </div>
-                    <h4 className="font-display text-2xl font-semibold text-nebula-white">Transforming Human Roles</h4>
+                    <h4 className="font-display text-xl md:text-2xl font-semibold text-nebula-white">Transforming Human Roles</h4>
                   </div>
-                  <p className="text-soft-graphite leading-relaxed text-lg flex-1 mb-6">
+                  <p className="text-soft-graphite leading-relaxed text-base md:text-lg flex-1 pb-4">
                     Rather than replacing human educators, we're elevating their purpose. Teachers and tutors will transition from information delivery to what humans do best: providing emotional support, motivation, creativity, and mentorship—the qualitative aspects that inspire lifelong learning.
                   </p>
                 </div>
               </div>
 
               {/* Scalable Excellence */}
-              <div className="bg-gradient-to-br from-arc-teal/10 to-arc-teal/5 border border-arc-teal/30 rounded-2xl p-8 hover:border-arc-teal/50 transition-all duration-300 h-72">
+              <div className="bg-gradient-to-br from-arc-teal/10 to-arc-teal/5 border border-arc-teal/30 rounded-2xl p-6 md:p-8 hover:border-arc-teal/50 transition-all duration-300 min-h-[20rem] lg:h-72">
                 <div className="flex flex-col h-full">
-                  <div className="flex items-center space-x-4 mb-4">
-                    <div className="w-16 h-16 bg-arc-teal/20 rounded-2xl flex items-center justify-center flex-shrink-0">
-                      <GraduationCap className="text-arc-teal" size={32} />
+                  <div className="flex flex-col sm:flex-row sm:items-center space-y-3 sm:space-y-0 sm:space-x-4 mb-4">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-arc-teal/20 rounded-2xl flex items-center justify-center flex-shrink-0">
+                      <GraduationCap className="text-arc-teal" size={24} />
                     </div>
-                    <h4 className="font-display text-2xl font-semibold text-nebula-white">Scalable Excellence</h4>
+                    <h4 className="font-display text-xl md:text-2xl font-semibold text-nebula-white">Scalable Excellence</h4>
                   </div>
-                  <p className="text-soft-graphite leading-relaxed text-lg flex-1 mb-6">
+                  <p className="text-soft-graphite leading-relaxed text-base md:text-lg flex-1 pb-4">
                     Our multi-agent system doesn't just scale content—it scales pedagogical expertise. Each AI teacher learns from millions of successful learning interactions, constantly improving to deliver the optimal educational experience for every individual student.
                   </p>
                 </div>

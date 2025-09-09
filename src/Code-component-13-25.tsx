@@ -1,0 +1,29 @@
+{
+  "name": "argonaut-education",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "motion": "^11.9.0",
+    "lucide-react": "^0.263.1",
+    "recharts": "^2.8.0",
+    "sonner": "^2.0.3",
+    "react-hook-form": "^7.55.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^4.0.0-alpha.25",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
